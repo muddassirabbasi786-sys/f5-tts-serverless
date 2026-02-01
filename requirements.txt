@@ -3,3 +3,4 @@ torchaudio
 numpy
 soundfile
 runpod
+git+https//github.com/SWivid/F5-TTS.git
