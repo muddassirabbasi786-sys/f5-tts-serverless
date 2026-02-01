@@ -6,7 +6,7 @@ WORKDIR /app
 RUN apt update && apt install -y ffmpeg libsndfile1
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir- -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
